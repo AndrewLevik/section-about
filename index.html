@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <main>
+        <section class="about section">
+            <div class="container">
+                <p class="about__label"> tradition and love </p>
+                <h2 class="about__title"> how it’s made </h2>
+                <div class="about__wrapper">
+                    <div class="about__image">
+                        <picture>
+                        <source srcset="
+                            ./images/desktop/advantages/image1.webp.webp 1x,
+                            ./images/desktop/advantages/image1@2x.webp.webp 2x"
+                            media="(min-width: 1200px)" type="image/webp" />
+                
+                        <source srcset="
+                            ./images/desktop/advantages/image1.jpg 1x,
+                            ./images/desktop/advantages/image1.jpg@2x.jpg 2x"
+                            media="(min-width: 1200px)" />
+                
+                        <source srcset="
+                            ./images/tablet/advantages/image1.webp.webp 1x,
+                            ./images/tablet/advantages/image1@2x.webp.webp 2x"
+                            media="(min-width: 768px)" type="image/webp" />
+                
+                        <source srcset="
+                            ./images/tablet/advantages/image1.jpg 1x,
+                            ./images/tablet/advantages/image1.jpg@2x.jpg 2x"
+                            media="(min-width: 768px)" />
+                
+                        <source srcset="
+                            ./images/mobile/advantages/image1.webp.webp 1x,
+                            ./images/mobile/advantages/image1@2x.webp.webp 2x"
+                            media="(max-width: 767px)" type="image/webp" />
+                
+                        <source srcset="
+                            ./images/mobile/advantages/image1.jpg 1x,
+                            ./images/mobile/advantages/image1.jpg@2x.jpg 2x"
+                            media="(max-width: 767px)" />
+                
+                        <img src="./images/cow_desktop.png" alt="Корова">
+                        </picture>
+                    </div>
+                <div class="about__content">
+                    <p class="about__lead-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis vero numquam, magni
+                        laboriosam alias deserunt quae minima dolores repellendus, odit ipsam accusantium. Omnis recusandae, error dolores
+                        quod necessitatibus vel ipsa.</p>
+                    <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit omnis labore, perferendis
+                        tenetur nihil explicabo, at expedita cupiditate minus incidunt quisquam impedit repellat! Provident excepturi
+                        nostrum sit necessitatibus ut?</p>
+                    <button class="button section-about__button button_theme-light" type="button">Read more
+                        <svg class="button__icon_theme-light" width="5" height="8">
+                            <use href="./images/svg.svg#icon-arrow-button"></use>
+                        </svg>
+                    </button>
+                </div>
+                </div>                                
+                
+            </div>
+        </section>
+    </main>
+</body>
